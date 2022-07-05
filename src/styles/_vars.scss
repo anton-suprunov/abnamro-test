@@ -1,0 +1,11 @@
+$breakpoints: (
+  "tablet": (
+    max-width: 750px,
+  ),
+  "mobile": (
+    max-width: 480px,
+  ),
+  "smallest": (
+    max-width: 350px,
+  )
+);
