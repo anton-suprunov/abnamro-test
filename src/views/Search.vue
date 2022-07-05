@@ -15,7 +15,6 @@
 
     const res = await searchShows(term);
     if (res) results.value = res;
-    console.log(results.value)
   }
 
   onMounted(async () => {

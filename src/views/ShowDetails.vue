@@ -21,7 +21,6 @@
       } else {
         const res = await loadShowDetails(route.params.showId as string)
         if (res) show.value = res;
-        console.log(show.value)
       }
     }
   })
